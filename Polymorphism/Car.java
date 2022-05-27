@@ -11,7 +11,7 @@ public class Car {
     int speed=60;
 	
     {	
-	  //System.out.println("the speed of an Car is 1 : "+super.speed);
+	  System.out.println("the speed of an Car is 1 : "+super.speed);
 		
 }
 	}

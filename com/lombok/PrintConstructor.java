@@ -1,11 +1,9 @@
 package com.lombok;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 
-@AllArgsConstructor
-@ToString
+@Getter
+@Setter
 public class PrintConstructor {
 
     private int rollNumber;

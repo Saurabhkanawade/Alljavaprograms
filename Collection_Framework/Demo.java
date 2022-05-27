@@ -12,18 +12,13 @@ import java.util.*;
 		a.add("rushikesh");
 		a.add("shankar");
 		a.add("shailesh");
-		a.add("sagar");
-		a.add("rohit");
-		a.add("harshal");
-		a.add("aniket");		
-		a.add("sanket");
-		a.add("pravin");
-		a.add("ashish");
 		a.add("subhash");
 		a.add("manoj");
 		a.add("rajesh");
-		a.add("Pankaj");
-		
+		a.add("pankaj");
+
+		Collections.sort(a,Collections.reverseOrder());
+
 		System.out.println("with list method :"+a);
 		
 		System.out.println();
@@ -51,6 +46,15 @@ import java.util.*;
 		for(String print:a) {
 			
 			System.out.println(" "+print);
+		}
+
+		 System.out.println("While loop ");
+		int s=0;
+
+		while(s<a.size()){
+
+			System.out.println(a.get(s));
+			s++;
 		}
 	}
 }

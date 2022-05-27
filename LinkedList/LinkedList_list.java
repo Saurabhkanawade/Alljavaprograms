@@ -6,7 +6,7 @@ public class LinkedList_list {
 
 	public static void main(String[] args) {
 		
-		LinkedList_data ll=new LinkedList_data(101, "zaurabh Kanawade"," Smbst College  "," IBM     " ,"Benglore");
+		LinkedList_data ll=new LinkedList_data(101, "Saurabh Kanawade"," Smbst College  "," IBM     " ,"Benglore");
 		LinkedList_data ll1=new LinkedList_data(102,"Shailesh Karpe  "," Sharmik College","AMAZON   ", "Delhi   ");
 		LinkedList_data ll2=new LinkedList_data(103,"Shankar Kandekat"," Petit College  ","ACCENTURE", "Pune    ");
 		LinkedList_data ll3=new LinkedList_data(104,"Sagar Bhomale   "," Agasti College ","WIPRO    ", "Nasik   ");
@@ -19,6 +19,7 @@ public class LinkedList_list {
 		ad.add(ll2);
 		ad.add(ll3);
 		ad.add(ll4);
+
 
 		//System.out.println("REMOVE the element :"+ad.removeLast());
 
